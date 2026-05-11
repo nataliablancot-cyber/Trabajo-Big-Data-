@@ -1,0 +1,5 @@
+Fuente,Registros,Variables,Nulos,Blancos,Duplicados,Outliers,Observaciones
+Fuente 1 — Weekly Oil Bulletin,1089,226,58205,0,5,Pendiente ETL,Formato ancho. Nombres de columnas poco descriptivos. Date como object.
+Fuente 2 — Duties and Taxes,35,8,79,0,3,Pendiente ETL,"3 hojas: VAT, Excise duties, Other Indirect Taxes. Valores numéricos como object."
+Fuente 3 — Eurostat,409,10,818,0,0,OBS_VALUE min = -682,Formato largo. OBS_FLAG y CONF_STATUS completamente vacías.
+Fuente 4 — World Bank GDP,266,71,3261,0,0,Max 2024 = 288.001$,Formato ancho. Unnamed:70 y 2025 vacías. Indicator Name/Code redundantes.
