@@ -1,0 +1,55 @@
+country_code,country_code_2,date,year,product,fuel_type,unit,tax_value,tax_eur_litre
+AUT,AT,1995-01-01,1995,Euro-super 95  (I),gasoline,1000 l,20.0,0.02
+BEL,BE,1996-01-01,1996,Euro-super 95  (I),gasoline,1000 l,21.0,0.021
+BGR,BG,1999-01-01,1999,Euro-super 95  (I),gasoline,1000 l,20.0,0.02
+CYP,CY,2014-01-13,2014,Euro-super 95  (I),gasoline,1000 l,19.0,0.019
+CZE,CZ,2013-01-01,2013,Euro-super 95  (I),gasoline,1000 l,21.0,0.021
+DEU,DE,2021-01-01,2021,Euro-super 95  (I),gasoline,1000 l,19.0,0.019
+DNK,DK,1995-01-01,1995,Euro-super 95  (I),gasoline,1000 l,25.0,0.025
+EST,EE,2026-01-01,2026,Euro-super 95  (I),gasoline,1000 l,22.0,0.022
+ESP,ES,2026-03-22,2026,Euro-super 95  (I),gasoline,1000 l,10.0,0.01
+FIN,FI,2026-01-01,2026,Euro-super 95  (I),gasoline,1000 l,25.5,0.0255
+FRA,FR,2014-01-01,2014,Euro-super 95  (I),gasoline,1000 l,20.0,0.02
+GRC,GR,2016-06-01,2016,Euro-super 95  (I),gasoline,1000 l,24.0,0.024
+HRV,HR,2012-03-01,2012,Euro-super 95  (I),gasoline,1000 l,25.0,0.025
+HUN,HU,2015-01-01,2015,Euro-super 95  (I),gasoline,1000 l,27.0,0.027
+IRL,IE,2021-03-01,2021,Euro-super 95  (I),gasoline,1000 l,23.0,0.023
+ITA,IT,2013-10-01,2013,Euro-super 95  (I),gasoline,1000 l,22.0,0.022
+LTU,LT,2009-09-01,2009,Euro-super 95  (I),gasoline,1000 l,21.0,0.021
+LUX,LU,2024-01-01,2024,Euro-super 95  (I),gasoline,1000 l,17.0,0.017
+LVA,LV,2012-07-01,2012,Euro-super 95  (I),gasoline,1000 l,21.0,0.021
+MLT,MT,2004-01-01,2004,Euro-super 95  (I),gasoline,1000 l,18.0,0.018
+NLD,NL,2012-10-01,2012,Euro-super 95  (I),gasoline,1000 l,21.0,0.021
+POL,PL,2026-03-01,2026,Euro-super 95  (I),gasoline,1000 l,8.0,0.008
+PRT,PT,2012-01-01,2012,Euro-super 95  (I),gasoline,1000 l,23.0,0.023
+ROU,RO,2025-08-01,2025,Euro-super 95  (I),gasoline,1000 l,21.0,0.021
+SWE,SE,2024-01-01,2024,Euro-super 95  (I),gasoline,1000 l,25.0,0.025
+SVN,SI,2013-07-01,2013,Euro-super 95  (I),gasoline,1000 l,22.0,0.022
+SVK,SK,2025-01-01,2025,Euro-super 95  (I),gasoline,1000 l,23.0,0.023
+AUT,AT,1995-01-01,1995,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,20.0,0.02
+BEL,BE,1996-01-01,1996,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,21.0,0.021
+BGR,BG,1999-01-01,1999,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,20.0,0.02
+CYP,CY,2014-01-13,2014,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,19.0,0.019
+CZE,CZ,2013-01-01,2013,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,21.0,0.021
+DEU,DE,2021-01-01,2021,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,19.0,0.019
+DNK,DK,1995-01-01,1995,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,25.0,0.025
+EST,EE,2026-01-01,2026,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,22.0,0.022
+ESP,ES,2026-03-22,2026,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,10.0,0.01
+FIN,FI,2026-01-01,2026,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,25.5,0.0255
+FRA,FR,2014-01-01,2014,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,20.0,0.02
+GRC,GR,2016-06-01,2016,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,24.0,0.024
+HRV,HR,2012-03-01,2012,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,25.0,0.025
+HUN,HU,2015-01-01,2015,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,27.0,0.027
+IRL,IE,2021-03-01,2021,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,23.0,0.023
+ITA,IT,2013-10-01,2013,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,22.0,0.022
+LTU,LT,2009-09-01,2009,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,21.0,0.021
+LUX,LU,2024-01-01,2024,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,17.0,0.017
+LVA,LV,2012-07-01,2012,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,21.0,0.021
+MLT,MT,2004-01-01,2004,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,18.0,0.018
+NLD,NL,2012-10-01,2012,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,21.0,0.021
+POL,PL,2026-03-01,2026,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,8.0,0.008
+PRT,PT,2012-01-01,2012,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,23.0,0.023
+ROU,RO,2025-08-01,2025,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,21.0,0.021
+SWE,SE,2024-01-01,2024,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,25.0,0.025
+SVN,SI,2013-07-01,2013,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,22.0,0.022
+SVK,SK,2025-01-01,2025,Gas oil automobile Automotive gas oil Dieselkraftstoff (I),diesel,1000 l,23.0,0.023

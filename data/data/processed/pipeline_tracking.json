@@ -1,0 +1,61 @@
+{
+    "fecha_ejecucion": "2026-05-12 09:01:38",
+    "fases": [
+        {
+            "fase": "extraccion_transformacion",
+            "dataset": "PIB_per_capita",
+            "registros_entrada": 266,
+            "registros_salida": 17556,
+            "registros_eliminados": 0,
+            "motivo": "Conversión de formato ancho a largo y eliminación de filas sin país o año"
+        },
+        {
+            "fase": "limpieza",
+            "dataset": "dependencia_energetica",
+            "registros_entrada": 409,
+            "registros_salida": 409,
+            "registros_eliminados": 0,
+            "motivo": "Eliminación de filas vacías, duplicados y limpieza de blancos"
+        },
+        {
+            "fase": "limpieza",
+            "dataset": "impuestos_oil_bulletin",
+            "registros_entrada": 35,
+            "registros_salida": 31,
+            "registros_eliminados": 4,
+            "motivo": "Limpieza de filas vacías, duplicados, blancos y nombres de columnas"
+        },
+        {
+            "fase": "limpieza_transformacion",
+            "dataset": "impuestos_oil_bulletin",
+            "registros_entrada": 192,
+            "registros_salida": 132,
+            "registros_eliminados": 60,
+            "motivo": "Reconstrucción de cabecera, transformación a formato largo, limpieza de nulos y conversión de impuestos a €/litro cuando la unidad es 1000 l"
+        },
+        {
+            "fase": "limpieza_transformacion",
+            "dataset": "weekly_oil_bulletin_prices",
+            "registros_entrada": 155847,
+            "registros_salida": 56011,
+            "registros_eliminados": 99836,
+            "motivo": "Transformación a formato largo, detección de país desde columnas, selección de gasolina y diésel, conversión de precios de €/1000 litros a €/litro y eliminación de valores no válidos"
+        },
+        {
+            "fase": "union_fuentes",
+            "dataset": "dataset_unificado",
+            "registros_entrada": 56011,
+            "registros_salida": 56011,
+            "registros_eliminados": 0,
+            "motivo": "Unión de precios con PIB per cápita, dependencia energética e impuestos por país, año y tipo de combustible"
+        },
+        {
+            "fase": "control_calidad_final",
+            "dataset": "dataset_unificado",
+            "registros_entrada": 56011,
+            "registros_salida": 56011,
+            "registros_eliminados": 0,
+            "motivo": "Revisión final de calidad. Se mantienen algunos nulos porque no todas las fuentes tienen cobertura completa para todos los países o años. Nulos finales por columna: {'date': 0, 'year': 0, 'country_code': 0, 'country_code_2': 0, 'fuel_type': 0, 'price_original': 0, 'price_eur_litre': 0, 'unit': 0, 'raw_product': 0, 'country_name': 918, 'gdp_per_capita': 3726, 'energy_dependency': 28853, 'tax_value': 0, 'tax_eur_litre': 0}. La dependencia energética empieza más tarde que la serie de precios. Los impuestos se han expandido por país, año y combustible usando forward fill y backward fill."
+        }
+    ]
+}
