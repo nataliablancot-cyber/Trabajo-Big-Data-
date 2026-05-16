@@ -1,0 +1,5 @@
+sk_fuente,nombre,organismo,formato,frecuencia,url,licencia
+1,Weekly Oil Bulletin Prices,Comisión Europea / DG Energy,Excel/CSV,Semanal,https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en,Open Data UE
+2,Oil Bulletin Duties and Taxes,Comisión Europea / DG Energy,Excel,Semestral,https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en,Open Data UE
+3,World Bank GDP per capita,Banco Mundial,CSV,Anual,https://data.worldbank.org/indicator/NY.GDP.PCAP.CD,CC BY 4.0
+4,Eurostat Energy Dependency,Eurostat,CSV,Anual,https://ec.europa.eu/eurostat/databrowser/view/nrg_ind_id,Open Data UE

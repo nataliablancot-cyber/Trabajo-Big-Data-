@@ -1,0 +1,3 @@
+sk_producto,fuel_type,nombre_es,descripcion,categoria,tipo_energia
+1,diesel,Gasóleo,Combustible destilado para motores diésel,Destilado medio,Fósil
+2,gasoline,Gasolina,Combustible nafta para motores de explosión,Nafta,Fósil
